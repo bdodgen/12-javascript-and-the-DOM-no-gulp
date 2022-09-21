@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+  background-color: red;
+}
+
+.lightbulb_off {
+  background-image: url(img/bulb-off.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+.lightbulb_on {
+  background-image: url(img/bulb-on.png);
+}
