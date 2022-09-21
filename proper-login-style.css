@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.username ,
+.password ,
+.button-and-checkbox {
+  padding: 1rem;
+}

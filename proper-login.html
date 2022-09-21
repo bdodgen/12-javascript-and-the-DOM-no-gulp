@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="proper-login-style.css">
+</head>
+<body>
+  <form action="action_page.php" method="post">
+
+    <div class="container">
+      <div class="username">
+        <label for="uname"><b>Username</b></label>
+        <input class="username-input" type="text" placeholder="Enter Username" name="uname" required>
+      </div>
+
+      <div class="password">
+        <label for="psw"><b>Password</b></label>
+        <input class="password-input" type="password" placeholder="Enter Password" name="psw" required>
+      </di>
+
+      <div class="button-and-checkbox" onclick="buttonClick()">
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </di>
+    </div>
+
+  </form>
+  <script src="proper-login-script.js"></script>
+</body>
+</html>
