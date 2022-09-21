@@ -6,8 +6,19 @@
 
 // Add a text field beside the buy button to allow the user to input quantity(for example in pieces).When the user clicks the button, its label will change to something like "3 pieces in cart".
 
-console.log("js is connected")
+// const buttonClick = () => {
+//   alert("Product added to cart")
+// }
+
+// const buttonClick = () => {
+//   document.getElementById('the-button').className = 'buy-button_clicked'
+//   document.querySelector('.buy-button_clicked').innerHTML = "Item in cart"
+// }
 
 const buttonClick = () => {
-  alert("Product added to cart")
+  document.getElementById('the-button').className = 'buy-button_clicked'
+  const amountInput = document.querySelector('.button-quantity')
+  const amount = Number(amountInput.value)
+  const buttonText = amount + (amount === 1 ? " item" : " items") + " in cart"
+  document.querySelector('.buy-button_clicked').innerHTML = buttonText
 }

@@ -11,11 +11,10 @@ html {
 body {
   color: antiquewhite;
 
-  background-image: url(../img/mountain-background.jpg);
+  background-image: url(img/mountain-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 
 .main {
@@ -53,4 +52,16 @@ body {
   border: none;
   border-radius: 10px;
   width: 10rem;
+}
+
+.buy-button_clicked {
+  flex-direction: row;
+  background-color: palevioletred;
+  border: none;
+  border-radius: 10px;
+  width: 10rem;
+}
+
+.button-quantity {
+  width: 2rem;
 }
