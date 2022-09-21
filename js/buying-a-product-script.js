@@ -22,3 +22,4 @@ const buttonClick = () => {
   const buttonText = amount + (amount === 1 ? " item" : " items") + " in cart"
   document.querySelector('.buy-button_clicked').innerHTML = buttonText
 }
+
