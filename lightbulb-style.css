@@ -1,17 +1,31 @@
 body {
+  display: flex;
   height: 100vh;
   background-color: red;
 }
 
+
+
+.lightbulb_on {
+  align-self: center;
+  background-image: url(img/bulb-on.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  height: 50vh;
+  width: 50%;
+  margin: 0 auto;
+  padding: auto;
+}
+
 .lightbulb_off {
+  align-self: center;
   background-image: url(img/bulb-off.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto;
   height: 50vh;
+  width: 50%;
   margin: 0 auto;
-}
-
-.lightbulb_on {
-  background-image: url(img/bulb-on.png);
+  padding: auto;
 }
